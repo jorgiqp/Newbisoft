@@ -16,3 +16,9 @@ html {
 body {
   margin-bottom: 60px;
 }
+.row{
+  text-align: center;
+}
+.blocks{
+  margin-top: 2rem;
+}
