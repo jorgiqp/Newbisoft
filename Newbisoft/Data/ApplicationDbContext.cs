@@ -10,8 +10,9 @@ namespace Newbisoft.Data
             : base(options)
         {
         }
-        public DbSet<Newbisoft.Models.Users>? Users { get; set; }
-        public DbSet<Newbisoft.Models.Roles>? Roles { get; set; }
-        public DbSet<Newbisoft.Models.Article>? Article { get; set; }
+        public DbSet<Users>? Users { get; set; }
+        public DbSet<Roles>? Roles { get; set; }
+        public DbSet<Article>? Article { get; set; }
+        public DbSet<Comments>? Comments { get; set; }
     }
 }
