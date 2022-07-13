@@ -1,5 +1,5 @@
 html {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 @media (min-width: 768px) {
@@ -18,26 +18,25 @@ body {
   background-color:gainsboro;
 }
 .row{
-  text-align: center;
+  width:100%;
+  display:table;
 }
 .blocks{
   margin-top: 2rem;
 }
 .feed-wrap {
     background-color: #fff;
-    padding: var(--base-p-x2);
-    border-radius: var(--base-p);
-    position: relative;
+    font-size: larger;
+
+
+    position: absolute;
+    left: 0;
 }
 .tabs {
-    font-family: Noto Sans,sans-serif;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    list-style: none;
-    padding: 0;
-    margin: 0 0 var(--base-p);
+  display: flex;
+  justify-content: space-around;  /* or justify-content: space-around; */
+  align-items: center;
+  padding-top: 10px;
 }
 a {
     text-decoration: none;
@@ -47,6 +46,11 @@ a {
     text-underline-position: under;
 }
 .tabs > .active {
-    opacity: 1;
-    color: var(--main-color);
+  list-style-type: none;
+  float: center;
+  margin: 0 20px;
+}
+.card{
+
+  
 }
